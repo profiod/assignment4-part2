@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Video Inventory</title>
+  <link rel="stylesheet" href="video_inventory.css">
+  <script src="video_inventory.js"></script>
+</head>
+<body>
+  <div id="input_form">
+    <span>Name: </span>
+    <input type="text" id="name_input">
+    <span>Category: </span>
+    <input type="text" id="category_input">
+    <span>Length: </span>
+    <input type="text" id="length_input">
+    <input type="submit" value="Add Video" onclick="addVideo()">
+    <br>
+  </div>
+  <div id="category_holder">
+  </div>
+  <div id="table_holder">
+  </div>
+  <br>
+  <div id="delete_button">
+    <button id="delete_all" onclick="deleteAll()">DELETE ALL</button>
+  </div>
+</body>
+</html>

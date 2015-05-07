@@ -1,0 +1,37 @@
+table {
+  empty-cells: show;
+  border: 1px solid black;
+  table-layout: fixed; 
+  width: 90%;
+  margin-left: 4.5%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+caption {
+	font-weight: bold; 
+	font-size: 1.25em;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+div#input_form {
+	margin-left: 4.5%
+}
+
+div#delete_button{
+	margin-left: 80%
+}
+
+div#category_holder{
+	margin-left: 80%;
+}
+
+button#delete_all {
+	background-color: red; 
+	color: white;
+}
